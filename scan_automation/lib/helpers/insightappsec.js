@@ -3,7 +3,7 @@ const axios = require('axios');
 class InsightAppSec {
     constructor(apiKey) {
         this.apiKey = apiKey;
-        this.baseUrl = 'https://us.api.insight.rapid7.com/ias/v1';
+        this.baseUrl = 'https://us3.api.insight.rapid7.com/ias/v1';
     }
 
     async startScan(scanConfigId) {
