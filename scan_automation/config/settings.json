@@ -1,4 +1,13 @@
 {
-    "apiKey": "your-api-key",
-    "scanConfigId": "your-scan-config-id"
+    "connection": {
+        "region": "us3",
+        "apiKey": "1863ef6e-b5e6-450b-9f3b-bca1fbbb1cbc"
+    },
+    "scanInfo": [
+        {
+            "appName": "devopssphere.site",
+            "scanConfigName": "nodejsscan"
+        }
+    ],
+    "statusCheckInterval": 60
 }
